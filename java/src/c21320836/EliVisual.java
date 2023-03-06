@@ -6,7 +6,9 @@ import ie.tudublin.*;
 
 public class EliVisual extends Visual {
     
-
+    WaveForm wf;
+    AudioBandsVisual abv;
+    
     public void settings()
     {
         size(1024, 500);
@@ -23,11 +25,12 @@ public class EliVisual extends Visual {
         startMinim();
                 
         // Call loadAudio to load an audio file to process 
-        //loadAudio("heroplanet.mp3");   
+        loadAudio("01.Ditto.mp3");   
 
-        
         // Call this instead to read audio from the microphone
         // startListening(); 
+        wf = new WaveForm(this);
+        abv = new AudioBandsVisual(this);
 
     }
 
