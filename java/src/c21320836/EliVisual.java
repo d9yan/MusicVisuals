@@ -27,7 +27,7 @@ public class EliVisual extends Visual {
 
         
         // Call this instead to read audio from the microphone
-        //startListening(); 
+        // startListening(); 
 
     }
 
