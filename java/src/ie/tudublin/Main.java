@@ -1,5 +1,7 @@
 package ie.tudublin;
-import c21320836.EliVisual;
+
+import example.MyVisual;
+
 
 public class Main
 {
