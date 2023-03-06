@@ -1,14 +1,11 @@
 package C21320836;
 
-package example;
+import example.*;
 
 import ie.tudublin.*;
 
-
 public class EliVisual extends Visual {
     
-    WaveForm wf;
-    AudioBandsVisual abv;
 
     public void settings()
     {
@@ -30,10 +27,8 @@ public class EliVisual extends Visual {
 
         
         // Call this instead to read audio from the microphone
-        startListening(); 
-        
-        wf = new WaveForm(this);
-        abv = new AudioBandsVisual(this);
+        //startListening(); 
+
     }
 
     public void keyPressed()
@@ -62,7 +57,5 @@ public class EliVisual extends Visual {
 
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();        
-        wf.render();
-        abv.render();
     }
 }
