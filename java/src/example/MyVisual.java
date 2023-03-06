@@ -1,12 +1,9 @@
-package C21320836;
-
 package example;
 
 import ie.tudublin.*;
 
-
-public class EliVisual extends Visual {
-    
+public class MyVisual extends Visual
+{    
     WaveForm wf;
     AudioBandsVisual abv;
 
