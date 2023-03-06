@@ -1,8 +1,8 @@
 # Music Visualiser Project
 
-Name: Elitsa Koleva & Onting Leung
+Name: Elitsa Koleva & Onting Leung & Raiyan Mohd Farid
 
-Student Number: C21320836 & C21308733
+Student Number: C21320836 & C21308733 & C21385263
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment
