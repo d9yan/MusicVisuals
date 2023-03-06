@@ -1,4 +1,4 @@
-package c21320836;
+package C21320836;
 
 import ddf.minim.AudioBuffer;
 import ddf.minim.AudioInput;
@@ -6,7 +6,7 @@ import ddf.minim.AudioPlayer;
 import ddf.minim.Minim;
 import processing.core.PApplet;
 
-public class project extends PApplet {
+public class EliVisual extends PApplet {
   Minim minim;
   AudioPlayer ap;
   AudioInput ai;
