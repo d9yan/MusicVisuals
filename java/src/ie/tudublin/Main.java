@@ -1,21 +1,19 @@
 package ie.tudublin;
-
-import example.CubeVisual;
-import example.MyVisual;
-import example.RotatingAudioBands;
+import c21320836.EliVisual;
 
 public class Main
-{	
+{
 
-	public void startUI()
+	public static void startUI()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new MyVisual());		
-	}
+        processing.core.PApplet.runSketch( a, new EliVisual());
+    }
 
 	public static void main(String[] args)
 	{
 		Main main = new Main();
-		main.startUI();			
+		main.startUI();	
 	}
+	
 }
