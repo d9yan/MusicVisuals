@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "visual",
+            "request": "launch",
+            "mainClass": "C21385263.visual",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "ie.tudublin.Main",
