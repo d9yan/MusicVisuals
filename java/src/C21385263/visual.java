@@ -1,4 +1,4 @@
-package c21385263;
+package C21385263;
 
 public class visual {
     public static void main(String[] args) {
