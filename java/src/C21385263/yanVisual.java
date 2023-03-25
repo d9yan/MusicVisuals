@@ -4,9 +4,9 @@ import ie.tudublin.Visual;
 
 public class yanVisual extends Visual
 {
-    public void setup() {
-        size(800, 800);
-        background(255); // set background color to white
+    public void settings() {
+        size(400, 400);
+        //background(255); // set background color to white
       }
       
     public void draw() {
