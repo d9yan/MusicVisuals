@@ -3,6 +3,7 @@ package C21385263;
 import ie.tudublin.Visual;
 
 public class yanVisual extends Visual
+poopy skooty
 {
     public void settings() {
         size(400, 400);
